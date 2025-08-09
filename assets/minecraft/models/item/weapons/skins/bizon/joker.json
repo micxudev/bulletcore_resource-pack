@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/bizon",
+  "textures": {
+    "skin": "item/weapons/skins/bizon/joker"
+  }
+}

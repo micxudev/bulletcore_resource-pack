@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/deagle",
+  "textures": {
+    "skin": "item/weapons/skins/deagle/darkgold"
+  }
+}

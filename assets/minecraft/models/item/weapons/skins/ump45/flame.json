@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/ump45",
+  "textures": {
+    "skin": "item/weapons/skins/ump45/flame"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "bulletcore.lore_weapon_bullets": "Bullets: %s/%s",
+  "bulletcore.lore_weapon_damage": "Damage: Head: %s, Body: %s, Legs: %s, Feet: %s",
+  "bulletcore.lore_weapon_distance": "Distance: %s",
+  "bulletcore.lore_weapon_ammo": "Ammo: %s",
+  "bulletcore.lore_ammo_count": "Ammo Count: %s/%s"
+}

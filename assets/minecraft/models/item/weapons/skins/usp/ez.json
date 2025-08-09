@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/usp",
+  "textures": {
+    "skin": "item/weapons/skins/usp/ez"
+  }
+}

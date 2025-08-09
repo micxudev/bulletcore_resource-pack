@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/features/bullet_hole"
+  },
+  "display": {
+    "head": {
+      "translation": [0, 13, 7],
+      "scale": [0.3, 0.3, 0.3]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "bulletcore.lore_weapon_bullets": "Патрони: %s/%s",
+  "bulletcore.lore_weapon_damage": "Шкода: Голова: %s, Тіло: %s, Ноги: %s, Ступні: %s",
+  "bulletcore.lore_weapon_distance": "Дистанція: %s",
+  "bulletcore.lore_weapon_ammo": "Боєприпаси: %s",
+  "bulletcore.lore_ammo_count": "Кількість боєприпасів: %s/%s"
+}

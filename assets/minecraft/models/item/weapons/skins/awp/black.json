@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/awp",
+  "textures": {
+    "skin": "item/weapons/skins/awp/black"
+  }
+}

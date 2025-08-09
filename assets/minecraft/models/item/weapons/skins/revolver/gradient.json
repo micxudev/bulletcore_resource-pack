@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/revolver",
+  "textures": {
+    "skin": "item/weapons/skins/revolver/gradient"
+  }
+}

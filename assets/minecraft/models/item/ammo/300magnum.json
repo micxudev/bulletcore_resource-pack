@@ -1,0 +1,7 @@
+{
+  "parent": "item/ammo/box",
+  "textures": {
+    "main": "item/ammo/300magnum/main",
+    "text": "item/ammo/300magnum/text"
+  }
+}
