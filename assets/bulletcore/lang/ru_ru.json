@@ -3,5 +3,7 @@
   "bulletcore.lore_weapon_damage": "Урон: Голова: %s, Тело: %s, Ноги: %s, Ступни: %s",
   "bulletcore.lore_weapon_distance": "Дистанция: %s",
   "bulletcore.lore_weapon_ammo": "Боеприпасы: %s",
-  "bulletcore.lore_ammo_count": "Количество боеприпасов: %s/%s"
+  "bulletcore.lore_ammo_count": "Количество боеприпасов: %s/%s",
+  "bulletcore.lore_armor_durability": "Прочность: %s/%s",
+  "bulletcore.lore_armor_damage_reduction": "Уменьшает урон на %s %%"
 }
