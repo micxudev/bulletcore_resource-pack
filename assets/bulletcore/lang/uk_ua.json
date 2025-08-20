@@ -4,6 +4,10 @@
   "bulletcore.lore_weapon_distance": "Дистанція: %s",
   "bulletcore.lore_weapon_ammo": "Боєприпаси: %s",
   "bulletcore.lore_ammo_count": "Кількість боєприпасів: %s/%s",
-  "bulletcore.lore_armor_durability": "Міцність: %s/%s",
-  "bulletcore.lore_armor_damage_reduction": "Зменшує шкоду на %s %%"
+  "bulletcore.lore_armor_durability": "Міцність шкоди від зброї: %s/%s",
+  "bulletcore.lore_armor_damage_reduction": "Зменшує шкоду від зброї на %s %%",
+  "bulletcore.lore_armor_armor_points": "Броня: %s",
+  "bulletcore.lore_armor_toughness_points": "Міцність броні: %s",
+  "bulletcore.lore_armor_knockback_resistance": "Зменшує відкидання на %s %%",
+  "bulletcore.lore_armor_explosion_knockback_resistance": "Зменшує відкидання вибухом на %s %%"
 }

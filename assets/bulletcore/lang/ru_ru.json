@@ -4,6 +4,10 @@
   "bulletcore.lore_weapon_distance": "Дистанция: %s",
   "bulletcore.lore_weapon_ammo": "Боеприпасы: %s",
   "bulletcore.lore_ammo_count": "Количество боеприпасов: %s/%s",
-  "bulletcore.lore_armor_durability": "Прочность: %s/%s",
-  "bulletcore.lore_armor_damage_reduction": "Уменьшает урон на %s %%"
+  "bulletcore.lore_armor_durability": "Прочность урона от оружия: %s/%s",
+  "bulletcore.lore_armor_damage_reduction": "Уменьшает урон от оружия на %s %%",
+  "bulletcore.lore_armor_armor_points": "Броня: %s",
+  "bulletcore.lore_armor_toughness_points": "Твёрдость брони: %s",
+  "bulletcore.lore_armor_knockback_resistance": "Уменьшает отбрасывание на %s %%",
+  "bulletcore.lore_armor_explosion_knockback_resistance": "Уменьшает отбрасывание взрывом на %s %%"
 }
