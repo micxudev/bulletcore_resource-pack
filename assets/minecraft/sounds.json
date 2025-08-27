@@ -41,5 +41,10 @@
   "bizon_fire": { "replace": false, "sounds": ["bizon_fire"] },
   "bizon_reload_start": { "replace": false, "sounds": ["bizon_reload_start"] },
   "bizon_reload_end": { "replace": false, "sounds": ["bizon_reload_end"] },
-  "bizon_empty": { "replace": false, "sounds": ["bizon_empty"] }
+  "bizon_empty": { "replace": false, "sounds": ["bizon_empty"] },
+
+  "sawedoff_fire": { "replace": false, "sounds": ["sawedoff_fire"] },
+  "sawedoff_reload_end": { "replace": false, "sounds": ["sawedoff_reload_end"] },
+  "sawedoff_empty": { "replace": false, "sounds": ["sawedoff_empty"] },
+  "sawedoff_add_bullet": { "replace": false, "sounds": ["sawedoff_add_bullet"] }
 }

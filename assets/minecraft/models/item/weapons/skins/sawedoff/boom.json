@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/sawedoff",
+  "textures": {
+    "skin": "item/weapons/skins/sawedoff/boom"
+  }
+}

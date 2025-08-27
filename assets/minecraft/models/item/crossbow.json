@@ -60,6 +60,14 @@
 
     { "predicate": { "custom_model_data": 13700 }, "model": "item/weapons/revolver" },
     { "predicate": { "custom_model_data": 13701 }, "model": "item/weapons/skins/revolver/gradient" },
-    { "predicate": { "custom_model_data": 13702 }, "model": "item/weapons/skins/revolver/lost" }
+    { "predicate": { "custom_model_data": 13702 }, "model": "item/weapons/skins/revolver/lost" },
+
+    { "predicate": { "custom_model_data": 13800 }, "model": "item/weapons/sawedoff" },
+    { "predicate": { "custom_model_data": 13801 }, "model": "item/weapons/skins/sawedoff/boom" },
+    { "predicate": { "custom_model_data": 13802 }, "model": "item/weapons/skins/sawedoff/cowboy" },
+    { "predicate": { "custom_model_data": 13803 }, "model": "item/weapons/skins/sawedoff/crocodile" },
+    { "predicate": { "custom_model_data": 13804 }, "model": "item/weapons/skins/sawedoff/emerald" },
+    { "predicate": { "custom_model_data": 13805 }, "model": "item/weapons/skins/sawedoff/fish" },
+    { "predicate": { "custom_model_data": 13806 }, "model": "item/weapons/skins/sawedoff/gold" }
   ]
 }

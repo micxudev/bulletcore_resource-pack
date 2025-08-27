@@ -6,6 +6,7 @@
     { "predicate": { "custom_model_data": 10200 }, "model": "item/ammo/556mm" },
     { "predicate": { "custom_model_data": 10300 }, "model": "item/ammo/9mm" },
     { "predicate": { "custom_model_data": 10400 }, "model": "item/ammo/45acp" },
-    { "predicate": { "custom_model_data": 10500 }, "model": "item/ammo/300magnum" }
+    { "predicate": { "custom_model_data": 10500 }, "model": "item/ammo/300magnum" },
+    { "predicate": { "custom_model_data": 10600 }, "model": "item/ammo/12gauge" }
   ]
 }
