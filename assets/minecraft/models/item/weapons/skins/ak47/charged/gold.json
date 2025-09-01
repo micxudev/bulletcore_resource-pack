@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/charged/ak47",
+  "textures": {
+    "skin": "item/weapons/skins/ak47/gold"
+  }
+}

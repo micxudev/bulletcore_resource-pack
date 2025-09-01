@@ -1,0 +1,6 @@
+{
+  "parent": "item/qa/gun/m1",
+  "display": {
+    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [-0.18, 13, 7.25] }
+  }
+}

@@ -2,85 +2,216 @@
   "parent": "item/generated",
   "textures": { "layer0": "item/crossbow_standby" },
   "display": {
-    "thirdperson_righthand": { "rotation": [ -90, 0, -60 ], "translation": [ 2, 0.1, -3 ], "scale": [ 0.9, 0.9, 0.9 ] },
-    "thirdperson_lefthand": { "rotation": [ -90, 0, 30 ], "translation": [ 2, 0.1, -3 ], "scale": [ 0.9, 0.9, 0.9 ] },
-    "firstperson_righthand": { "rotation": [ -90, 0, -55 ], "translation": [ 1.13, 3.2, 1.13], "scale": [ 0.68, 0.68, 0.68 ] },
-    "firstperson_lefthand": { "rotation": [ -90, 0, 35 ], "translation": [ 1.13, 3.2, 1.13], "scale": [ 0.68, 0.68, 0.68 ] }
+    "thirdperson_righthand": { "rotation": [-90, 0, -60], "translation": [2   , 0.1, -3   ], "scale": [0.9 , 0.9 , 0.9 ] },
+    "thirdperson_lefthand" : { "rotation": [-90, 0,  30], "translation": [2   , 0.1, -3   ], "scale": [0.9 , 0.9 , 0.9 ] },
+    "firstperson_righthand": { "rotation": [-90, 0, -55], "translation": [1.13, 3.2,  1.13], "scale": [0.68, 0.68, 0.68] },
+    "firstperson_lefthand" : { "rotation": [-90, 0,  35], "translation": [1.13, 3.2,  1.13], "scale": [0.68, 0.68, 0.68] }
   },
   "overrides": [
-    { "predicate": { "pulling": 1 }, "model": "item/crossbow_pulling_0" },
-    { "predicate": { "pulling": 1, "pull": 0.58 }, "model": "item/crossbow_pulling_1" },
-    { "predicate": { "pulling": 1, "pull": 1.0 }, "model": "item/crossbow_pulling_2" },
-    { "predicate": { "charged": 1 }, "model": "item/crossbow_arrow" },
-    { "predicate": { "charged": 1, "firework": 1 }, "model": "item/crossbow_firework" },
+    { "predicate": { "pulling": 1                             }, "model": "item/crossbow_pulling_0" },
+    { "predicate": { "pulling": 1, "pull": 0.58               }, "model": "item/crossbow_pulling_1" },
+    { "predicate": { "pulling": 1, "pull": 1.0                }, "model": "item/crossbow_pulling_2" },
+    { "predicate": { "charged": 1                             }, "model": "item/crossbow_arrow"     },
+    { "predicate": { "charged": 1, "firework": 1              }, "model": "item/crossbow_firework"  },
 
 
-    { "predicate": { "custom_model_data": 13000 }, "model": "item/weapons/ak47" },
-    { "predicate": { "custom_model_data": 13001 }, "model": "item/weapons/skins/ak47/death" },
-    { "predicate": { "custom_model_data": 13002 }, "model": "item/weapons/skins/ak47/fish" },
-    { "predicate": { "custom_model_data": 13003 }, "model": "item/weapons/skins/ak47/gold" },
-    { "predicate": { "custom_model_data": 13004 }, "model": "item/weapons/skins/ak47/rust" },
-    { "predicate": { "custom_model_data": 13005 }, "model": "item/weapons/skins/ak47/theimpair" },
-    { "predicate": { "custom_model_data": 13006 }, "model": "item/weapons/skins/ak47/tiktok" },
 
-    { "predicate": { "custom_model_data": 13100 }, "model": "item/weapons/m4a1s" },
-    { "predicate": { "custom_model_data": 13101 }, "model": "item/weapons/skins/m4a1s/beast" },
-    { "predicate": { "custom_model_data": 13102 }, "model": "item/weapons/skins/m4a1s/cyberpank" },
-    { "predicate": { "custom_model_data": 13103 }, "model": "item/weapons/skins/m4a1s/darkgold" },
-    { "predicate": { "custom_model_data": 13104 }, "model": "item/weapons/skins/m4a1s/dino" },
-    { "predicate": { "custom_model_data": 13105 }, "model": "item/weapons/skins/m4a1s/gradient" },
-    { "predicate": { "custom_model_data": 13106 }, "model": "item/weapons/skins/m4a1s/may" },
+    { "predicate": { "custom_model_data": 13000               }, "model": "item/weapons/ak47" },
+    { "predicate": { "custom_model_data": 13000, "charged": 1 }, "model": "item/weapons/charged/ak47" },
 
-    { "predicate": { "custom_model_data": 13200 }, "model": "item/weapons/ump45" },
-    { "predicate": { "custom_model_data": 13201 }, "model": "item/weapons/skins/ump45/bloodsport" },
-    { "predicate": { "custom_model_data": 13202 }, "model": "item/weapons/skins/ump45/flame" },
-    { "predicate": { "custom_model_data": 13203 }, "model": "item/weapons/skins/ump45/may" },
-    { "predicate": { "custom_model_data": 13204 }, "model": "item/weapons/skins/ump45/swampfury" },
-    { "predicate": { "custom_model_data": 13205 }, "model": "item/weapons/skins/ump45/whiteflame" },
-    { "predicate": { "custom_model_data": 13206 }, "model": "item/weapons/skins/ump45/wintersport" },
+    { "predicate": { "custom_model_data": 13001               }, "model": "item/weapons/skins/ak47/death" },
+    { "predicate": { "custom_model_data": 13001, "charged": 1 }, "model": "item/weapons/skins/ak47/charged/death" },
 
-    { "predicate": { "custom_model_data": 13300 }, "model": "item/weapons/bizon" },
-    { "predicate": { "custom_model_data": 13301 }, "model": "item/weapons/skins/bizon/darkgold" },
-    { "predicate": { "custom_model_data": 13302 }, "model": "item/weapons/skins/bizon/hotdog" },
-    { "predicate": { "custom_model_data": 13303 }, "model": "item/weapons/skins/bizon/joker" },
-    { "predicate": { "custom_model_data": 13304 }, "model": "item/weapons/skins/bizon/nerf" },
-    { "predicate": { "custom_model_data": 13305 }, "model": "item/weapons/skins/bizon/pharaoh" },
-    { "predicate": { "custom_model_data": 13306 }, "model": "item/weapons/skins/bizon/tiger" },
+    { "predicate": { "custom_model_data": 13002               }, "model": "item/weapons/skins/ak47/fish" },
+    { "predicate": { "custom_model_data": 13002, "charged": 1 }, "model": "item/weapons/skins/ak47/charged/fish" },
 
-    { "predicate": { "custom_model_data": 13400 }, "model": "item/weapons/awp" },
-    { "predicate": { "custom_model_data": 13401 }, "model": "item/weapons/skins/awp/bdish" },
-    { "predicate": { "custom_model_data": 13402 }, "model": "item/weapons/skins/awp/black" },
-    { "predicate": { "custom_model_data": 13403 }, "model": "item/weapons/skins/awp/dragonlore" },
-    { "predicate": { "custom_model_data": 13404 }, "model": "item/weapons/skins/awp/may" },
-    { "predicate": { "custom_model_data": 13405 }, "model": "item/weapons/skins/awp/moriz" },
-    { "predicate": { "custom_model_data": 13406 }, "model": "item/weapons/skins/awp/worn" },
+    { "predicate": { "custom_model_data": 13003               }, "model": "item/weapons/skins/ak47/gold" },
+    { "predicate": { "custom_model_data": 13003, "charged": 1 }, "model": "item/weapons/skins/ak47/charged/gold" },
 
-    { "predicate": { "custom_model_data": 13500 }, "model": "item/weapons/deagle" },
-    { "predicate": { "custom_model_data": 13501 }, "model": "item/weapons/skins/deagle/bluewater" },
-    { "predicate": { "custom_model_data": 13502 }, "model": "item/weapons/skins/deagle/codred" },
-    { "predicate": { "custom_model_data": 13503 }, "model": "item/weapons/skins/deagle/darkgold" },
-    { "predicate": { "custom_model_data": 13504 }, "model": "item/weapons/skins/deagle/golddragon" },
-    { "predicate": { "custom_model_data": 13505 }, "model": "item/weapons/skins/deagle/rust" },
-    { "predicate": { "custom_model_data": 13506 }, "model": "item/weapons/skins/deagle/tiktok" },
+    { "predicate": { "custom_model_data": 13004               }, "model": "item/weapons/skins/ak47/rust" },
+    { "predicate": { "custom_model_data": 13004, "charged": 1 }, "model": "item/weapons/skins/ak47/charged/rust" },
 
-    { "predicate": { "custom_model_data": 13600 }, "model": "item/weapons/usp" },
-    { "predicate": { "custom_model_data": 13601 }, "model": "item/weapons/skins/usp/ez" },
-    { "predicate": { "custom_model_data": 13602 }, "model": "item/weapons/skins/usp/forest" },
-    { "predicate": { "custom_model_data": 13603 }, "model": "item/weapons/skins/usp/hield" },
-    { "predicate": { "custom_model_data": 13604 }, "model": "item/weapons/skins/usp/red" },
-    { "predicate": { "custom_model_data": 13605 }, "model": "item/weapons/skins/usp/robot" },
-    { "predicate": { "custom_model_data": 13606 }, "model": "item/weapons/skins/usp/sayrex" },
+    { "predicate": { "custom_model_data": 13005               }, "model": "item/weapons/skins/ak47/theimpair" },
+    { "predicate": { "custom_model_data": 13005, "charged": 1 }, "model": "item/weapons/skins/ak47/charged/theimpair" },
 
-    { "predicate": { "custom_model_data": 13700 }, "model": "item/weapons/revolver" },
-    { "predicate": { "custom_model_data": 13701 }, "model": "item/weapons/skins/revolver/gradient" },
-    { "predicate": { "custom_model_data": 13702 }, "model": "item/weapons/skins/revolver/lost" },
+    { "predicate": { "custom_model_data": 13006               }, "model": "item/weapons/skins/ak47/tiktok" },
+    { "predicate": { "custom_model_data": 13006, "charged": 1 }, "model": "item/weapons/skins/ak47/charged/tiktok" },
 
-    { "predicate": { "custom_model_data": 13800 }, "model": "item/weapons/sawedoff" },
-    { "predicate": { "custom_model_data": 13801 }, "model": "item/weapons/skins/sawedoff/boom" },
-    { "predicate": { "custom_model_data": 13802 }, "model": "item/weapons/skins/sawedoff/cowboy" },
-    { "predicate": { "custom_model_data": 13803 }, "model": "item/weapons/skins/sawedoff/crocodile" },
-    { "predicate": { "custom_model_data": 13804 }, "model": "item/weapons/skins/sawedoff/emerald" },
-    { "predicate": { "custom_model_data": 13805 }, "model": "item/weapons/skins/sawedoff/fish" },
-    { "predicate": { "custom_model_data": 13806 }, "model": "item/weapons/skins/sawedoff/gold" }
+
+    { "predicate": { "custom_model_data": 13100               }, "model": "item/weapons/m4a1s" },
+    { "predicate": { "custom_model_data": 13100, "charged": 1 }, "model": "item/weapons/charged/m4a1s" },
+
+    { "predicate": { "custom_model_data": 13101               }, "model": "item/weapons/skins/m4a1s/beast" },
+    { "predicate": { "custom_model_data": 13101, "charged": 1 }, "model": "item/weapons/skins/m4a1s/charged/beast" },
+
+    { "predicate": { "custom_model_data": 13102               }, "model": "item/weapons/skins/m4a1s/cyberpank" },
+    { "predicate": { "custom_model_data": 13102, "charged": 1 }, "model": "item/weapons/skins/m4a1s/charged/cyberpank" },
+
+    { "predicate": { "custom_model_data": 13103               }, "model": "item/weapons/skins/m4a1s/darkgold" },
+    { "predicate": { "custom_model_data": 13103, "charged": 1 }, "model": "item/weapons/skins/m4a1s/charged/darkgold" },
+
+    { "predicate": { "custom_model_data": 13104               }, "model": "item/weapons/skins/m4a1s/dino" },
+    { "predicate": { "custom_model_data": 13104, "charged": 1 }, "model": "item/weapons/skins/m4a1s/charged/dino" },
+
+    { "predicate": { "custom_model_data": 13105               }, "model": "item/weapons/skins/m4a1s/gradient" },
+    { "predicate": { "custom_model_data": 13105, "charged": 1 }, "model": "item/weapons/skins/m4a1s/charged/gradient" },
+
+    { "predicate": { "custom_model_data": 13106               }, "model": "item/weapons/skins/m4a1s/may" },
+    { "predicate": { "custom_model_data": 13106, "charged": 1 }, "model": "item/weapons/skins/m4a1s/charged/may" },
+
+
+    { "predicate": { "custom_model_data": 13200               }, "model": "item/weapons/ump45" },
+    { "predicate": { "custom_model_data": 13200, "charged": 1 }, "model": "item/weapons/charged/ump45" },
+
+    { "predicate": { "custom_model_data": 13201               }, "model": "item/weapons/skins/ump45/bloodsport" },
+    { "predicate": { "custom_model_data": 13201, "charged": 1 }, "model": "item/weapons/skins/ump45/charged/bloodsport" },
+
+    { "predicate": { "custom_model_data": 13202               }, "model": "item/weapons/skins/ump45/flame" },
+    { "predicate": { "custom_model_data": 13202, "charged": 1 }, "model": "item/weapons/skins/ump45/charged/flame" },
+
+    { "predicate": { "custom_model_data": 13203               }, "model": "item/weapons/skins/ump45/may" },
+    { "predicate": { "custom_model_data": 13203, "charged": 1 }, "model": "item/weapons/skins/ump45/charged/may" },
+
+    { "predicate": { "custom_model_data": 13204               }, "model": "item/weapons/skins/ump45/swampfury" },
+    { "predicate": { "custom_model_data": 13204, "charged": 1 }, "model": "item/weapons/skins/ump45/charged/swampfury" },
+
+    { "predicate": { "custom_model_data": 13205               }, "model": "item/weapons/skins/ump45/whiteflame" },
+    { "predicate": { "custom_model_data": 13205, "charged": 1 }, "model": "item/weapons/skins/ump45/charged/whiteflame" },
+
+    { "predicate": { "custom_model_data": 13206               }, "model": "item/weapons/skins/ump45/wintersport" },
+    { "predicate": { "custom_model_data": 13206, "charged": 1 }, "model": "item/weapons/skins/ump45/charged/wintersport" },
+
+
+    { "predicate": { "custom_model_data": 13300               }, "model": "item/weapons/bizon" },
+    { "predicate": { "custom_model_data": 13300, "charged": 1 }, "model": "item/weapons/charged/bizon" },
+
+    { "predicate": { "custom_model_data": 13301               }, "model": "item/weapons/skins/bizon/darkgold" },
+    { "predicate": { "custom_model_data": 13301, "charged": 1 }, "model": "item/weapons/skins/bizon/charged/darkgold" },
+
+    { "predicate": { "custom_model_data": 13302               }, "model": "item/weapons/skins/bizon/hotdog" },
+    { "predicate": { "custom_model_data": 13302, "charged": 1 }, "model": "item/weapons/skins/bizon/charged/hotdog" },
+
+    { "predicate": { "custom_model_data": 13303               }, "model": "item/weapons/skins/bizon/joker" },
+    { "predicate": { "custom_model_data": 13303, "charged": 1 }, "model": "item/weapons/skins/bizon/charged/joker" },
+
+    { "predicate": { "custom_model_data": 13304               }, "model": "item/weapons/skins/bizon/nerf" },
+    { "predicate": { "custom_model_data": 13304, "charged": 1 }, "model": "item/weapons/skins/bizon/charged/nerf" },
+
+    { "predicate": { "custom_model_data": 13305               }, "model": "item/weapons/skins/bizon/pharaoh" },
+    { "predicate": { "custom_model_data": 13305, "charged": 1 }, "model": "item/weapons/skins/bizon/charged/pharaoh" },
+
+    { "predicate": { "custom_model_data": 13306               }, "model": "item/weapons/skins/bizon/tiger" },
+    { "predicate": { "custom_model_data": 13306, "charged": 1 }, "model": "item/weapons/skins/bizon/charged/tiger" },
+
+
+    { "predicate": { "custom_model_data": 13400               }, "model": "item/weapons/awp" },
+    { "predicate": { "custom_model_data": 13400, "charged": 1 }, "model": "item/weapons/charged/awp" },
+
+    { "predicate": { "custom_model_data": 13401               }, "model": "item/weapons/skins/awp/bdish" },
+    { "predicate": { "custom_model_data": 13401, "charged": 1 }, "model": "item/weapons/skins/awp/charged/bdish" },
+
+    { "predicate": { "custom_model_data": 13402               }, "model": "item/weapons/skins/awp/black" },
+    { "predicate": { "custom_model_data": 13402, "charged": 1 }, "model": "item/weapons/skins/awp/charged/black" },
+
+    { "predicate": { "custom_model_data": 13403               }, "model": "item/weapons/skins/awp/dragonlore" },
+    { "predicate": { "custom_model_data": 13403, "charged": 1 }, "model": "item/weapons/skins/awp/charged/dragonlore" },
+
+    { "predicate": { "custom_model_data": 13404               }, "model": "item/weapons/skins/awp/may" },
+    { "predicate": { "custom_model_data": 13404, "charged": 1 }, "model": "item/weapons/skins/awp/charged/may" },
+
+    { "predicate": { "custom_model_data": 13405               }, "model": "item/weapons/skins/awp/moriz" },
+    { "predicate": { "custom_model_data": 13405, "charged": 1 }, "model": "item/weapons/skins/awp/charged/moriz" },
+
+    { "predicate": { "custom_model_data": 13406               }, "model": "item/weapons/skins/awp/worn" },
+    { "predicate": { "custom_model_data": 13406, "charged": 1 }, "model": "item/weapons/skins/awp/charged/worn" },
+
+
+    { "predicate": { "custom_model_data": 13500               }, "model": "item/weapons/deagle" },
+    { "predicate": { "custom_model_data": 13500, "charged": 1 }, "model": "item/weapons/charged/deagle" },
+
+    { "predicate": { "custom_model_data": 13501               }, "model": "item/weapons/skins/deagle/bluewater" },
+    { "predicate": { "custom_model_data": 13501, "charged": 1 }, "model": "item/weapons/skins/deagle/charged/bluewater" },
+
+    { "predicate": { "custom_model_data": 13502               }, "model": "item/weapons/skins/deagle/codred" },
+    { "predicate": { "custom_model_data": 13502, "charged": 1 }, "model": "item/weapons/skins/deagle/charged/codred" },
+
+    { "predicate": { "custom_model_data": 13503               }, "model": "item/weapons/skins/deagle/darkgold" },
+    { "predicate": { "custom_model_data": 13503, "charged": 1 }, "model": "item/weapons/skins/deagle/charged/darkgold" },
+
+    { "predicate": { "custom_model_data": 13504               }, "model": "item/weapons/skins/deagle/golddragon" },
+    { "predicate": { "custom_model_data": 13504, "charged": 1 }, "model": "item/weapons/skins/deagle/charged/golddragon" },
+
+    { "predicate": { "custom_model_data": 13505               }, "model": "item/weapons/skins/deagle/rust" },
+    { "predicate": { "custom_model_data": 13505, "charged": 1 }, "model": "item/weapons/skins/deagle/charged/rust" },
+
+    { "predicate": { "custom_model_data": 13506               }, "model": "item/weapons/skins/deagle/tiktok" },
+    { "predicate": { "custom_model_data": 13506, "charged": 1 }, "model": "item/weapons/skins/deagle/charged/tiktok" },
+
+
+    { "predicate": { "custom_model_data": 13600               }, "model": "item/weapons/usp" },
+    { "predicate": { "custom_model_data": 13600, "charged": 1 }, "model": "item/weapons/charged/usp" },
+
+    { "predicate": { "custom_model_data": 13601               }, "model": "item/weapons/skins/usp/ez" },
+    { "predicate": { "custom_model_data": 13601, "charged": 1 }, "model": "item/weapons/skins/usp/charged/ez" },
+
+    { "predicate": { "custom_model_data": 13602               }, "model": "item/weapons/skins/usp/forest" },
+    { "predicate": { "custom_model_data": 13602, "charged": 1 }, "model": "item/weapons/skins/usp/charged/forest" },
+
+    { "predicate": { "custom_model_data": 13603               }, "model": "item/weapons/skins/usp/hield" },
+    { "predicate": { "custom_model_data": 13603, "charged": 1 }, "model": "item/weapons/skins/usp/charged/hield" },
+
+    { "predicate": { "custom_model_data": 13604               }, "model": "item/weapons/skins/usp/red" },
+    { "predicate": { "custom_model_data": 13604, "charged": 1 }, "model": "item/weapons/skins/usp/charged/red" },
+
+    { "predicate": { "custom_model_data": 13605               }, "model": "item/weapons/skins/usp/robot" },
+    { "predicate": { "custom_model_data": 13605, "charged": 1 }, "model": "item/weapons/skins/usp/charged/robot" },
+
+    { "predicate": { "custom_model_data": 13606               }, "model": "item/weapons/skins/usp/sayrex" },
+    { "predicate": { "custom_model_data": 13606, "charged": 1 }, "model": "item/weapons/skins/usp/charged/sayrex" },
+
+
+    { "predicate": { "custom_model_data": 13700               }, "model": "item/weapons/revolver" },
+    { "predicate": { "custom_model_data": 13700, "charged": 1 }, "model": "item/weapons/charged/revolver" },
+
+    { "predicate": { "custom_model_data": 13701               }, "model": "item/weapons/skins/revolver/gradient" },
+    { "predicate": { "custom_model_data": 13701, "charged": 1 }, "model": "item/weapons/skins/revolver/charged/gradient" },
+
+    { "predicate": { "custom_model_data": 13702               }, "model": "item/weapons/skins/revolver/lost" },
+    { "predicate": { "custom_model_data": 13702, "charged": 1 }, "model": "item/weapons/skins/revolver/charged/lost" },
+
+
+    { "predicate": { "custom_model_data": 13800               }, "model": "item/weapons/sawedoff" },
+    { "predicate": { "custom_model_data": 13800, "charged": 1 }, "model": "item/weapons/charged/sawedoff" },
+
+    { "predicate": { "custom_model_data": 13801               }, "model": "item/weapons/skins/sawedoff/boom" },
+    { "predicate": { "custom_model_data": 13801, "charged": 1 }, "model": "item/weapons/skins/sawedoff/charged/boom" },
+
+    { "predicate": { "custom_model_data": 13802               }, "model": "item/weapons/skins/sawedoff/cowboy" },
+    { "predicate": { "custom_model_data": 13802, "charged": 1 }, "model": "item/weapons/skins/sawedoff/charged/cowboy" },
+
+    { "predicate": { "custom_model_data": 13803               }, "model": "item/weapons/skins/sawedoff/crocodile" },
+    { "predicate": { "custom_model_data": 13803, "charged": 1 }, "model": "item/weapons/skins/sawedoff/charged/crocodile" },
+
+    { "predicate": { "custom_model_data": 13804               }, "model": "item/weapons/skins/sawedoff/emerald" },
+    { "predicate": { "custom_model_data": 13804, "charged": 1 }, "model": "item/weapons/skins/sawedoff/charged/emerald" },
+
+    { "predicate": { "custom_model_data": 13805               }, "model": "item/weapons/skins/sawedoff/fish" },
+    { "predicate": { "custom_model_data": 13805, "charged": 1 }, "model": "item/weapons/skins/sawedoff/charged/fish" },
+
+    { "predicate": { "custom_model_data": 13806               }, "model": "item/weapons/skins/sawedoff/gold" },
+    { "predicate": { "custom_model_data": 13806, "charged": 1 }, "model": "item/weapons/skins/sawedoff/charged/gold" },
+
+
+
+    { "predicate": { "custom_model_data": 15000               }, "model": "item/qa/gun/m1" },
+    { "predicate": { "custom_model_data": 15000, "charged": 1 }, "model": "item/qa/gun/charged/m1" },
+
+
+    { "predicate": { "custom_model_data": 15100               }, "model": "item/qa/gun/mg42" },
+    { "predicate": { "custom_model_data": 15100, "charged": 1 }, "model": "item/qa/gun/charged/mg42" },
+
+
+    { "predicate": { "custom_model_data": 15200               }, "model": "item/qa/gun/obrez" },
+    { "predicate": { "custom_model_data": 15200, "charged": 1 }, "model": "item/qa/gun/charged/obrez" }
   ]
 }

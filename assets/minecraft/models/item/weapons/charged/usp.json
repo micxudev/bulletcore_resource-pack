@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/usp",
+  "display": {
+    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [1.65, 2.75, -1.75] }
+  }
+}

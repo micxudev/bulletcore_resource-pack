@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/charged/usp",
+  "textures": {
+    "skin": "item/weapons/skins/usp/hield"
+  }
+}

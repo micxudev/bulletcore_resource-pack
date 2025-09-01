@@ -1,0 +1,6 @@
+{
+  "parent": "item/qa/gun/obrez",
+  "display": {
+    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [-0.1, 13.5, 7.5] }
+  }
+}

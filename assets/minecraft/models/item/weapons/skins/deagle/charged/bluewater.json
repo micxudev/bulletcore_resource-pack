@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/charged/deagle",
+  "textures": {
+    "skin": "item/weapons/skins/deagle/bluewater"
+  }
+}

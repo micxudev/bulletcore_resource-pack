@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/m4a1s",
+  "display": {
+    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [0.72, 4.25, 3.5] }
+  }
+}

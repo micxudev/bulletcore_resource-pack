@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/revolver",
+  "display": {
+    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [0.9, 3, 2.5] }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/deagle",
+  "display": {
+    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [1.4, 3.5, -0.5] }
+  }
+}

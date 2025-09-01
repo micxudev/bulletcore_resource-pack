@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/charged/m4a1s",
+  "textures": {
+    "skin": "item/weapons/skins/m4a1s/beast"
+  }
+}

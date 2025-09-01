@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/charged/awp",
+  "textures": {
+    "skin": "item/weapons/skins/awp/worn"
+  }
+}

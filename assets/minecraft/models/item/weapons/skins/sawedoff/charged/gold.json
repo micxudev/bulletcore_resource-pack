@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/charged/sawedoff",
+  "textures": {
+    "skin": "item/weapons/skins/sawedoff/gold"
+  }
+}

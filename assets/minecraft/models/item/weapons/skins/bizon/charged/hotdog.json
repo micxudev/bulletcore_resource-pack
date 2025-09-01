@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/charged/bizon",
+  "textures": {
+    "skin": "item/weapons/skins/bizon/hotdog"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/weapons/ump45",
+  "display": {
+    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [0.15, 4, 6.75] }
+  }
+}

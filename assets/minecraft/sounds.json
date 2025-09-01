@@ -46,5 +46,22 @@
   "sawedoff_fire": { "replace": false, "sounds": ["sawedoff_fire"] },
   "sawedoff_reload_end": { "replace": false, "sounds": ["sawedoff_reload_end"] },
   "sawedoff_empty": { "replace": false, "sounds": ["sawedoff_empty"] },
-  "sawedoff_add_bullet": { "replace": false, "sounds": ["sawedoff_add_bullet"] }
+  "sawedoff_add_bullet": { "replace": false, "sounds": ["sawedoff_add_bullet"] },
+
+
+  "qa_m1_fire": { "replace": false, "sounds": ["qa/bigbullet"] },
+  "qa_m1_reload_start": { "replace": false, "sounds": ["qa/reloadmagout"] },
+  "qa_m1_reload_end": { "replace": false, "sounds": ["qa/reloadslide"] },
+  "qa_m1_empty": { "replace": false, "sounds": ["qa/outofammoclick"] },
+
+  "qa_mg42_fire": { "replace": false, "sounds": ["qa/bigbullet"] },
+  "qa_mg42_reload_start": { "replace": false, "sounds": ["qa/reloadmagout"] },
+  "qa_mg42_reload_end": { "replace": false, "sounds": ["qa/reloadmagin"] },
+  "qa_mg42_empty": { "replace": false, "sounds": ["qa/outofammoclick"] },
+
+  "qa_obrez_fire": { "replace": false, "sounds": ["qa/obrezshot"] },
+  "qa_obrez_reload_start": { "replace": false, "sounds": ["qa/reloadshell"] },
+  "qa_obrez_reload_end": { "replace": false, "sounds": ["qa/reloadmagin"] },
+  "qa_obrez_empty": { "replace": false, "sounds": ["qa/outofammoclick"] },
+  "qa_obrez_add_bullet": { "replace": false, "sounds": ["qa/reloadshell"] }
 }
