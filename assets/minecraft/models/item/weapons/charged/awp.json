@@ -1,6 +1,6 @@
 {
   "parent": "item/weapons/awp",
   "display": {
-    "firstperson_righthand": { "rotation": [-1, -10, 0], "translation": [1.4, 5.25, -0.5] }
+    "firstperson_righthand": { "rotation": [0, -101, 0], "translation": [14.9713, 11.322, 14.5], "scale": [4, 4, 4] }
   }
 }
